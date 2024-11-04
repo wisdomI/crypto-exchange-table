@@ -36,7 +36,7 @@ export default function Table() {
             code: item.symbol || "",
             price: item.price_usd
               ? `$${parseFloat(item.price_usd).toLocaleString()}`
-              : "", // Format price
+              : "",
             totalSupply: item.tsupply
               ? parseInt(item.tsupply).toLocaleString()
               : "",
